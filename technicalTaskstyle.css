@@ -1,0 +1,88 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  width: 1100px;
+  max-width: 95%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 50px 5px 100px;
+  border-bottom: 1px solid black;
+}
+
+.instaLogo img {
+  height: 80px;
+  width: 150px;
+}
+.symbols-container {
+  display: flex;
+}
+.symbols-container img {
+  width: 25px;
+  height: 25 px;
+  /* padding: 10px; */
+  padding-left: 30px;
+}
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  background-color: rgb(248, 245, 245);
+}
+
+.profPic img {
+  width: 180px;
+  height: 180px;
+  margin: 50px auto 50px 100px;
+}
+
+.bio-right {
+  width: 550px;
+  align-items: left;
+  margin-right: 100px;
+}
+.pageName {
+  display: flex;
+  /* margin-right: 150px; */
+}
+.pageName div {
+  margin: 0 10px 0 10px;
+}
+.pageName img {
+  width: 25px;
+  height: 25px;
+}
+
+.profData {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+  margin: 15px auto 15px auto;
+  text-align: left;
+}
+.profData span {
+  width: 150px;
+  margin-left: 15px;
+}
+.bio-content a {
+  text-decoration: none;
+  color: blue;
+}
+.feed-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 245, 245);
+}
+.feed-body img {
+  height: 300px;
+  width: 300px;
+  padding: 20px 20px 20px 20px;
+  margin-top: 50px;
+}
